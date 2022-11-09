@@ -1,19 +1,19 @@
 package justpil.restservice;
 
 public class Greeting {
-    private final long id;
-    private final String content;
+    private final long ID;
+    private final String CONTENT;
 
     public Greeting(long i, String c) {
-        id = i;
-        content = c;
+        ID = i;
+        CONTENT = c;
     }
 
     public long getId() {
-        return id;
+        return ID;
     }
 
     public String getContent() {
-        return content;
+        return CONTENT;
     }
 }
